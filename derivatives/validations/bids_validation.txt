@@ -1,0 +1,339 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		License
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see [Licenses](https://bids-specification.readthedocs.io/en/stable/appendices/licenses.md)).
+The corresponding full license text MAY be specified in an additional
+`LICENSE` file.
+
+
+		GeneratedBy
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] NO_AUTHORS The Authors field of dataset_description.json should contain an array of fields -
+with one author per field. This was triggered because there are no authors, which
+will make DOI registration from dataset metadata impossible.
+
+		Authors
+		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		StimulusPresentation
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		50 more files with the same issue
+
+		InstitutionAddress
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+
+		50 more files with the same issue
+
+		InstitutionalDepartmentName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+
+		50 more files with the same issue
+
+		Manufacturer
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		50 more files with the same issue
+
+		ManufacturersModelName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+
+		50 more files with the same issue
+
+		ManufacturersModelVersion
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+
+
+		50 more files with the same issue
+
+		RecordingSetupName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Custom name of the recording setup.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Custom name of the recording setup.
+
+
+		50 more files with the same issue
+
+		DeviceSerialNumber
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+
+		50 more files with the same issue
+
+		SoftwareName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+
+
+		50 more files with the same issue
+
+		SoftwareVersions
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+
+		50 more files with the same issue
+
+		RecordingDuration
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+
+		50 more files with the same issue
+
+		RecordingType
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		50 more files with the same issue
+
+		PharmaceuticalName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Name of pharmaceutical.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Name of pharmaceutical.
+
+
+		50 more files with the same issue
+
+		PharmaceuticalDoseAmount
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+
+
+		50 more files with the same issue
+
+		PharmaceuticalDoseUnits
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+
+
+		50 more files with the same issue
+
+		PharmaceuticalDoseRegimen
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+
+
+		50 more files with the same issue
+
+		PharmaceuticalDoseTime
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+
+
+		50 more files with the same issue
+
+		BodyPart
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+
+		50 more files with the same issue
+
+		BodyPartDetails
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+
+		50 more files with the same issue
+
+		SampleEnvironment
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+
+
+		50 more files with the same issue
+
+		TaskName
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+
+
+		50 more files with the same issue
+
+		TaskDescription
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Longer description of the task.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Longer description of the task.
+
+
+		50 more files with the same issue
+
+		Instructions
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+
+
+		50 more files with the same issue
+
+		CogAtlasID
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+
+
+		50 more files with the same issue
+
+		CogPOID
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+
+
+		50 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		x
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_electrodes.json - Format "string" must be number
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_electrodes.json - Format "string" must be number
+
+		50 more files with the same issue
+
+		y
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_electrodes.json - Format "string" must be number
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_electrodes.json - Format "string" must be number
+
+		50 more files with the same issue
+
+		impedance
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_electrodes.json - Format "string" must be number
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_electrodes.json - Format "string" must be number
+
+		50 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[ERROR] JSON_KEY_REQUIRED A JSON flle is missing a key listed as required.
+		Name
+		/dataset_description.json - Field description: Name of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_REQUIRED for existing conversations about this issue.
+
+	[ERROR] JSON_SCHEMA_VALIDATION_ERROR Invalid JSON sidecar file. The sidecar is not formatted according the schema.
+		SamplingFrequency
+		/sub-BAYLORGC75/ses-20190610/ecephys/sub-BAYLORGC75_ses-20190610_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+
+		/sub-BAYLORGC75/ses-20190608/ecephys/sub-BAYLORGC75_ses-20190608_ecephys.json - must be number
+
+Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+
+
+		50 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=JSON_SCHEMA_VALIDATION_ERROR for existing conversations about this issue.
+
+
+          Summary:                           Available Tasks:        Available Modalities:
+          521 Files, 3.77 MB                                         microephys           
+          18 - Subjects 52 - Sessions                                                     
+
